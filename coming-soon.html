@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon | Extrude Gaming Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .coming-soon-hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: var(--bg-dark);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .coming-soon-hero::after {
+            content: '';
+            position: absolute;
+            width: 80vw;
+            height: 80vw;
+            background: var(--gradient-glow);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.3;
+            filter: blur(100px);
+            pointer-events: none;
+        }
+
+        .icon-large {
+            font-size: 5rem;
+            margin-bottom: 30px;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="coming-soon-hero">
+        <div class="container" style="position: relative; z-index: 2;">
+            <i class="fas fa-rocket icon-large"></i>
+            <h1 style="font-size: 3.5rem; margin-bottom: 20px;">Coming <span class="text-gradient">Soon</span></h1>
+            <p style="color: var(--text-muted); font-size: 1.2rem; max-width: 600px; margin: 0 auto 40px;">
+                We are crafting something extraordinary. This title is currently under development and will be available
+                on store shelves very soon!
+            </p>
+            <a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </div>
+    </section>
+</body>
+
+</html>
