@@ -1,2 +1,8 @@
-# Place your app-ads.txt content here
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# AdMob
+google.com, pub-4994757641737321, DIRECT, f08c47fec0942fa0
+
+# Mintegral
+mintegral.com, XXXXXXXX, DIRECT
+
+# Unity Ads
+unity3d.com, XXXXXXX, DIRECT
