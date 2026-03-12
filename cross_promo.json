@@ -1,9 +1,9 @@
-﻿{
+{
   "promotions": [
     {
-      "gameTitle": "Flying Spider Hero Pro- The Super Hero Game 2019",
-      "googlePlayURL": "",
-      "amazonStoreURL": "https://www.amazon.com/Flying-Spider-Hero-Pro-Super/dp/B07N4P79MN/",
+      "gameTitle": "Flying Spider Hero",
+      "googlePlayURL": "https://play.google.com/store/apps/details?id=com.extrudegaming.flying.man.spider.hero.games.pro",
+      "amazonStoreURL": "amzn://apps/android?p=com.Amazon.ExtrudeGaming.flying.man.spider.hero.games.pro",
       "iosAppStoreURL": "",
       "imageURL": "https://raheelswati.github.io/extrudestudio/promo/SpiderHeroAmazon.jpg",
       "videoURL": "https://raheelswati.github.io/extrudestudio/promo/SpiderHero.mp4"
